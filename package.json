@@ -2,9 +2,11 @@
   "name": "my-app-ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": ".", 
+  "homepage": "https://github.com/Mooazsobh2/Kirby2", 
   "type": "module",
   "scripts": {
+    "predeploy":"npm rub build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview"
