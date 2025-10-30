@@ -2,10 +2,10 @@
   "name": "my-app-ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Mooazsobh2/Kirby2", 
+  "homepage": "https://github.com/Mooazsobh2/Kirby3",
   "type": "module",
   "scripts": {
-    "predeploy":"npm rub build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -20,9 +20,10 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.2",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "typescript": "^5.6.3",
-    "vite": "^5.4.10"
+    "vite": "^7.1.12"
   }
 }
