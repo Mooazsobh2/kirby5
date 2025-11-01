@@ -2,7 +2,7 @@
   "name": "my-app-ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Mooazsobh2/Kirby3",
+  "homepage": "https://github.com/Mooazsobh2/Kirby5",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
